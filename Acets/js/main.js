@@ -14,7 +14,7 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
-
+// var BtnSubmit = document.getElementById("btn-submit");
 
 let more = document.querySelectorAll('.more');
 for(let i = 0; i<more.length; i++){
@@ -22,3 +22,13 @@ for(let i = 0; i<more.length; i++){
     more[i].parentNode.classList.toggle('active')
   })
 }
+// function SavarContato() {
+//   clearFields();
+// }
+// // FUNÇÃO DE LIMPAR OS CAMPOS
+// var clearFields = () =>{
+//   var fields = document.querySelectorAll('.form-control');
+//   fields.forEach(field => field.value = "")
+// }
+
+// BtnSubmit.addEventListener("click", SavarContato);
